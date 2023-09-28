@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Example</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Header-->
+    <header class="bg-primary p-lg-0 mb-2">
+        <h1 class="text-center">Equivalence Partition Technique</h1>
+    </header>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-info">
+        <a class="navbar-brand" href="/Index.html">Home</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Technique</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="/pages/Eqivalence.html">What is?</a>
+                        <a class="dropdown-item" href="/pages/ExempleE.html">Example</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Limits</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="/pages/LimitValues.html">What is?</a>
+                    </div>
+                </li>  <li class="nav-item active">
+                    <a class="nav-link" href="/pages/bibliography.html">bibliography<span class="sr-only">(current)</span></a>
+                </li>              
+            </ul>
+        </div>
+    </nav>
+    <!--Logo-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-6 text-center">
+                <img src="/img/logouaeh.png" alt="Logo" class="img-fluid float-md-right" style="max-width: 100px;">
+            </div>
+        </div>
+    </div>
+
+    <!--Texto-->
+    <div class="text-center mt-3">
+        <h2>Example</h2>
+    </div>
+
+    <article class="mt-5 m-3">
+        <p>Let's imagine that we have a system that only allows access to people from 18 to 60 years of age and the
+            system asks the user to
+            enter his age, if the user is under 18 or over 60 years old it does not allow access and sends a message
+            depending on the age, to those under 18 it says: "You cannot access, your age is lower than the required"
+            and to those over 60: "You cannot access, your age is higher than the required".
+        </p>
+        <p>Since the system must behave in the same way for all children under 18 years of age, all those ages are
+            grouped in the same partition and the same for the other two groups. To achieve 100% coverage the test cases
+            should cover each of the identified partitions, using at least one value from each partition for testing.
+        </p><br>
+        <img src="/img/img_3.png" alt="img_3" class="img-fluid m-2 mr-0"><br>
+
+    </article>
+
+    <!-- Footer con Bootstrap -->
+    <footer class="bg-primary text-light text-center py-4">
+        <div class="container">
+            <p>Copyright &copy; 2023 Optativa1 - Testing.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
